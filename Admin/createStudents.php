@@ -187,21 +187,21 @@ if(isset($_POST['save'])){
                   <form method="post">
                    <div class="form-group row mb-3">
                         <div class="col-xl-6">
-                        <label class="form-control-label">Firstname<span class="text-danger ml-2">*</span></label>
+                        <label class="form-control-label">FirstName<span class="text-danger ml-2">*</span></label>
                         <input type="text" class="form-control" name="firstName" value="<?php echo $row['firstName'];?>" id="exampleInputFirstName" >
                         </div>
                         <div class="col-xl-6">
-                        <label class="form-control-label">Lastname<span class="text-danger ml-2">*</span></label>
+                        <label class="form-control-label">LastName<span class="text-danger ml-2">*</span></label>
                       <input type="text" class="form-control" name="lastName" value="<?php echo $row['lastName'];?>" id="exampleInputFirstName" >
                         </div>
                     </div>
                      <div class="form-group row mb-3">
                         <div class="col-xl-6">
-                        <label class="form-control-label">Other Name<span class="text-danger ml-2">*</span></label>
+                        <label class="form-control-label">MiddleName<span class="text-danger ml-2">*</span></label>
                         <input type="text" class="form-control" name="otherName" value="<?php echo $row['otherName'];?>" id="exampleInputFirstName" >
                         </div>
                         <div class="col-xl-6">
-                        <label class="form-control-label">Admission Number<span class="text-danger ml-2">*</span></label>
+                        <label class="form-control-label">Student Number<span class="text-danger ml-2">*</span></label>
                       <input type="text" class="form-control" required name="admissionNumber" value="<?php echo $row['admissionNumber'];?>" id="exampleInputFirstName" >
                         </div>
                     </div>

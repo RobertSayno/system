@@ -205,11 +205,11 @@ if(isset($_POST['save'])){
                   <form method="post">
                    <div class="form-group row mb-3">
                         <div class="col-xl-6">
-                        <label class="form-control-label">Firstname<span class="text-danger ml-2">*</span></label>
+                        <label class="form-control-label">FirstName<span class="text-danger ml-2">*</span></label>
                         <input type="text" class="form-control" required name="firstName" value="<?php echo $row['firstName'];?>" id="exampleInputFirstName">
                         </div>
                         <div class="col-xl-6">
-                        <label class="form-control-label">Lastname<span class="text-danger ml-2">*</span></label>
+                        <label class="form-control-label">LastName<span class="text-danger ml-2">*</span></label>
                       <input type="text" class="form-control" required name="lastName" value="<?php echo $row['lastName'];?>" id="exampleInputFirstName" >
                         </div>
                     </div>
@@ -241,7 +241,7 @@ if(isset($_POST['save'])){
                             ?>  
                         </div>
                         <div class="col-xl-6">
-                        <label class="form-control-label">Class Arm<span class="text-danger ml-2">*</span></label>
+                        <label class="form-control-label">Block<span class="text-danger ml-2">*</span></label>
                             <?php
                                 echo"<div id='txtHint'></div>";
                             ?>
@@ -281,7 +281,7 @@ if(isset($_POST['save'])){
                         <th>Email Address</th>
                         <th>Phone No</th>
                         <th>Class</th>
-                        <th>Class Arm</th>
+                        <th>Block</th>
                         <th>Date Created</th>
                         <th>Delete</th>
                       </tr>

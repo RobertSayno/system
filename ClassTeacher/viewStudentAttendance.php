@@ -139,10 +139,10 @@ include '../Includes/session.php';
                         <th>#</th>
                         <th>First Name</th>
                         <th>Last Name</th>
-                        <th>Other Name</th>
-                        <th>Admission No</th>
+                        <th>Middle Name</th>
+                        <th>Student No</th>
                         <th>Class</th>
-                        <th>Class Arm</th>
+                        <th>Block</th>
                         <th>Session</th>
                         <th>Term</th>
                         <th>Status</th>
